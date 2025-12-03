@@ -1,6 +1,10 @@
 # AEV-PLIG refined
 This is a repository that hosts a refined implementation for the AEV-PLIG model, a GNN-based scoring function that predicts the binding affinity of a bound protein-ligand complex given its 3D structure. Compared to the original repo ([here](https://github.com/isakvals/AEV-PLIG)), this repo provides user-friendly command-line interfaces (CLIs), a more organised codebase, and implements the method as a pip-installable package.
 
+This was the version used in the JCIM paper "Can AI-Predicted Complexes Teach Machine Learning to Compute
+2 Drug Binding Affinity?" J. Chem. Inf. Model. (2025) Hsu W-T, Grevtsev S, Herz AM, Douglas T, Margarkar A and Biggin PC.   https://doi.org/10.1021/acs.jcim.5c01848 
+
+
 ## Installation
 We recommend using a conda environment to install the package.
 ```bash
